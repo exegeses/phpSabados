@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dcb498bf-bde6-4d1c-8d16-194917fb011b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/phpSabados" />
+  </component>
+  <component name="ProjectId" id="1XWglv4BlODpRBDodNASkmw4SXI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\www\marcos\clase2" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcb498bf-bde6-4d1c-8d16-194917fb011b" name="Default Changelist" comment="" />
+      <created>1581167418759</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581167418759</updated>
+      <workItem from="1581167420538" duration="90000" />
+      <workItem from="1581167518046" duration="9622000" />
+      <workItem from="1581773201725" duration="12056000" />
+      <workItem from="1582377992772" duration="8397000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582386297253">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="446" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1582386297253" />
+    <state x="515" y="296" key="NewPhpFileDialog" timestamp="1582382852503">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="515" y="296" key="NewPhpFileDialog/0.0.1360.728@0.0.1360.728" timestamp="1582382852503" />
+    <state x="183" y="10" key="SettingsEditor" timestamp="1582378148508">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="183" y="10" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1582378148508" />
+    <state x="387" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1582378092315">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="387" y="192" key="com.intellij.ide.util.TipDialog/0.0.1360.728@0.0.1360.728" timestamp="1582378092315" />
+    <state x="343" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1581784558673">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="343" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1360.728@0.0.1360.728" timestamp="1581784558673" />
+  </component>
+</project>
