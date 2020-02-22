@@ -1,5 +1,17 @@
 comandos
 
-     git clone [url]
+    clonar un repo:
+        git clone [url]
+
+    agregar todo
+        git add .
+
+    poner un comentario
+        git commit -m 'comentario'
+
+    subir archivos
+
+        git push
+
 
 
