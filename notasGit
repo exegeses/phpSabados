@@ -7,7 +7,7 @@ comandos
         git add .
 
     poner un comentario
-        git commit -m 'comentario'
+        git commit -m 'comentario de la subida'
 
     subir archivos
 
