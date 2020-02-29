@@ -1,0 +1,7 @@
+GUIA PARA TRABAJAR CON SERVER DE BBDD
+
+1.- conexión a server + selección de la base
+2.- creación de mensaje SQL
+3.- Ejecución de mensaje SQL
+4.- Informes (muestreo de datos en pantalla)
+
