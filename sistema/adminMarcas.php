@@ -20,7 +20,7 @@ include 'includes/nav.php';
                 <th>id</th>
                 <th>Marca</th>
                 <th colspan="2">
-                    <a href="" class="btn btn-dark">
+                    <a href="formAgregarMarca.php" class="btn btn-dark">
                         Agregar
                     </a>
                 </th>
