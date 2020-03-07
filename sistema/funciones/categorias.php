@@ -8,8 +8,12 @@
         $link = conectar();
         $sql = "SELECT idCategoria, catNombre
                    FROM categorias";
+<<<<<<< HEAD
         $resultado = mysqli_query( $link, $sql )
                         or die(mysqli_error($link));
+=======
+        $resultado = mysqli_query( $link, $sql );
+>>>>>>> master
         return $resultado;
     }
 
