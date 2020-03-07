@@ -1,10 +1,10 @@
 <?php
 
-    require 'funciones/conexion.php';
-    require 'funciones/marcas.php';
-    $marcas = listarMarcas();
-	include 'includes/header.html';  
-	include 'includes/nav.php';  
+require 'funciones/conexion.php';
+require 'funciones/marcas.php';
+$marcas = listarMarcas();
+include 'includes/header.html';
+include 'includes/nav.php';
 ?>
 
     <main class="container">
@@ -16,20 +16,20 @@
 
         <table class="table table-hover table-bordered table-striped">
             <thead class="thead-dark">
-                <tr>
-                    <th>id</th>
-                    <th>Marca</th>
-                    <th colspan="2">
-                        <a href="" class="btn btn-dark">
-                            Agregar
-                        </a>
-                    </th>
-                </tr>
+            <tr>
+                <th>id</th>
+                <th>Marca</th>
+                <th colspan="2">
+                    <a href="" class="btn btn-dark">
+                        Agregar
+                    </a>
+                </th>
+            </tr>
             </thead>
             <tbody>
-<?php
-        while( $marca = mysqli_fetch_assoc($marcas) ){
-?>
+            <?php
+            while( $marca = mysqli_fetch_assoc($marcas) ){
+                ?>
                 <tr>
                     <td><?= $marca['idMarca']; ?></td>
                     <td><?= $marca['mkNombre']; ?></td>
@@ -44,9 +44,9 @@
                         </a>
                     </td>
                 </tr>
-<?php
-        }
-?>
+                <?php
+            }
+            ?>
             </tbody>
         </table>
 

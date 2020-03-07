@@ -23,7 +23,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/phpSabados" />
   </component>
   <component name="ProjectId" id="1XWglv4BlODpRBDodNASkmw4SXI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -33,11 +35,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sistema" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\www\marcos\phpSabados\sistema" />
       <recent name="E:\www\marcos\clase2" />
     </key>
   </component>
@@ -62,10 +65,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582386297253">
+    <state x="446" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583592622133">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="446" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1582386297253" />
+    <state x="446" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1583592622133" />
     <state x="515" y="296" key="NewPhpFileDialog" timestamp="1582382852503">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
