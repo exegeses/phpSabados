@@ -1,5 +1,10 @@
 <?php
 
+    require 'funciones/conexion.php';
+    require 'funciones/marcas.php';
+    require 'funciones/categorias.php';
+    $marcas = listarMarcas();
+    $categorias = listarCategorias();
 	include 'includes/header.html';  
 	include 'includes/nav.php';  
 ?>
@@ -14,17 +19,32 @@
                 <input type="text" name="prdNombre" class="form-control" required>
                 <br>
                 Precio: <br>
-                <input type="number" name="prdPrecio" class="form-control" required>
+                <input type="number" name="prdPrecio" class="form-control" step="0.01" min="0" required>
                 <br>
                 Marca: <br>
                 <select name="idMarca" class="form-control" required>
                     <option value="">Seleccione una Marca</option>
+<?php
+            while ( $marca = mysqli_fetch_assoc($marcas) ){
+?>
+                    <option value="<?= $marca['idMarca']; ?>"><?= $marca['mkNombre']; ?></option>
+<?php
+            }
+?>
                 </select>
 
                 <br>
                 Categoría: <br>
                 <select name="idCategoria" class="form-control" required>
                     <option value="">Seleccione una categoría</option>
+<?php
+            while ( $categoria = mysqli_fetch_assoc($categorias) ){
+?>
+                    <option value="<?= $categoria['idCategoria']; ?>"><?= $categoria['catNombre']; ?></option>
+<?php
+            }
+?>
+
                 </select>
 
                 <br>
@@ -32,7 +52,7 @@
                 <textarea name="prdPresentacion" class="form-control"></textarea>
                 <br>
                 Stock: <br>
-                <input type="number" name="prdStock" class="form-control" required>
+                <input type="number" name="prdStock" class="form-control" min="0" required>
                 <br>
                 Imagen: <br>
                 <input type="file" name="prdImagen" class="form-control">
