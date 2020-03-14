@@ -24,7 +24,7 @@
                     <th>Presentación</th>
                     <th>Imagen</th>
                     <th colspan="2">
-                        <a href="" class="btn btn-dark">
+                        <a href="formAgregarProducto.php" class="btn btn-dark">
                             Agregar
                         </a>
                     </th>
@@ -45,7 +45,7 @@
                     </td>
 
                     <td>
-                        <a href="" class="btn btn-outline-secondary">
+                        <a href="formModificarProducto.php?idProducto=<?= $producto['idProducto']; ?>" class="btn btn-outline-secondary">
                             Modificar
                         </a>
                     </td>
