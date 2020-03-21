@@ -38,6 +38,25 @@
     }
 
 
+    function marcaEnUso()
+    {
+        $idMarca = $_GET['idMarca'];
+        $link = conectar();
+
+        $sql = "SELECT mkNombre 
+                    FROM productos p, marcas m
+                    WHERE p.idMarca = m.idMarca
+                      AND idMarca = ".$idMarca;
+
+        $resultado = mysqli_query($link, $sql)
+                    or die(mysqli_error($link));
+        //$datos = mysqli_fetch_assoc($resultado);
+        //$marca = $datos['mkNombre'];
+        $cantidad = mysqli_num_rows($resultado);
+        return $cantidad;
+
+    }
+
     /**
      * listarMarcas()
      * verMarcaPorID()

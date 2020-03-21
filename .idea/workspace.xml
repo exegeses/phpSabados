@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcb498bf-bde6-4d1c-8d16-194917fb011b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sistema/formEliminarMarca.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sistema/formModificarProducto.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/formModificarProducto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sistema/funciones/productos.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/funciones/productos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema/adminMarcas.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/adminMarcas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema/funciones/marcas.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/funciones/marcas.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +18,20 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,8 +53,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/sistema" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -48,6 +67,28 @@
       <recent name="E:\www\marcos\phpSabados\sistema" />
       <recent name="E:\www\marcos\clase2" />
     </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:catalogoPHP@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:catalogoPHP@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@77269110" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -63,7 +104,7 @@
       <workItem from="1581167518046" duration="9622000" />
       <workItem from="1581773201725" duration="12056000" />
       <workItem from="1582377992772" duration="8397000" />
-      <workItem from="1584799085005" duration="7008000" />
+      <workItem from="1584799085005" duration="9831000" />
     </task>
     <servers />
   </component>
@@ -71,10 +112,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="575" y="324" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584809157318">
+      <screen x="0" y="23" width="2560" height="1332" />
+    </state>
+    <state x="575" y="324" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.23.1920.1057/0.23.2560.1332@0.23.2560.1332" timestamp="1584809157318" />
     <state x="446" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583592622133">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="446" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1583592622133" />
+    <state width="1281" height="321" key="GridCell.Tab.0.bottom" timestamp="1584809174756">
+      <screen x="0" y="23" width="2560" height="1332" />
+    </state>
+    <state width="1281" height="321" key="GridCell.Tab.0.bottom/2560.23.1920.1057/0.23.2560.1332@0.23.2560.1332" timestamp="1584809174756" />
+    <state width="1281" height="321" key="GridCell.Tab.0.center" timestamp="1584809174755">
+      <screen x="0" y="23" width="2560" height="1332" />
+    </state>
+    <state width="1281" height="321" key="GridCell.Tab.0.center/2560.23.1920.1057/0.23.2560.1332@0.23.2560.1332" timestamp="1584809174755" />
+    <state width="1281" height="321" key="GridCell.Tab.0.left" timestamp="1584809174754">
+      <screen x="0" y="23" width="2560" height="1332" />
+    </state>
+    <state width="1281" height="321" key="GridCell.Tab.0.left/2560.23.1920.1057/0.23.2560.1332@0.23.2560.1332" timestamp="1584809174754" />
+    <state width="1281" height="321" key="GridCell.Tab.0.right" timestamp="1584809174756">
+      <screen x="0" y="23" width="2560" height="1332" />
+    </state>
+    <state width="1281" height="321" key="GridCell.Tab.0.right/2560.23.1920.1057/0.23.2560.1332@0.23.2560.1332" timestamp="1584809174756" />
     <state x="515" y="296" key="NewPhpFileDialog" timestamp="1582382852503">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
