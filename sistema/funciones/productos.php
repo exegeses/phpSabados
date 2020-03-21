@@ -80,6 +80,33 @@
 
     }
 
+    function modificarProducto()
+    {
+        //capturamos datos enviados por el form
+        $idProducto = $_POST['idProducto'];
+        $prdNombre = $_POST['prdNombre'];
+        $prdPrecio = $_POST['prdPrecio'];
+        $idMarca = $_POST['idMarca'];
+        $idCategoria = $_POST['idCategoria'];
+        $prdPresentacion = $_POST['prdPresentacion'];
+        $prdStock = $_POST['prdStock'];
+        $prdImagen = subirArchivo(); // **
+
+        $link = conectar();
+        $sql = "UPDATE productos SET
+	 	    			prdNombre = '".$prdNombre."',
+	 	    		 	prdPrecio = ".$prdPrecio.",		
+	 	    		 	idMarca = ".$idMarca.",
+	 	    		 	idCategoria = ".$idCategoria.",
+	 	    		 	prdPresentacion = '".$prdPresentacion."',
+	 	    		 	prdStock = ".$prdStock.",
+	 	    		 	prdImagen = '".$prdImagen."'	 	    			
+	 	    	WHERE idProducto = ".$idProducto;
+
+        $resultado = mysqli_query($link, $sql)
+                            or die(mysqli_error($link));
+        return $resultado;
+    }
 
 
 
