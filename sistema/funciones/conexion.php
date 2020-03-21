@@ -5,8 +5,8 @@
 
     define('SERVER', 'localhost');
     define('USUARIO', 'root');
-    define('CLAVE', '');
-    define('BASE', 'catalogo');
+    define('CLAVE', 'root');
+    define('BASE', 'catalogoPHP');
 
     function conectar()
     {
