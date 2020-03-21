@@ -58,6 +58,7 @@
                 <br>
                 Imagen: <br>
                 <img src="productos/<?= $producto['prdImagen']; ?>" class="img-thumbnail">
+                <input type="hidden" name="prdImagenActual" value="<?= $producto['prdImagen']; ?>">
                 <br>
                 <input type="file" name="prdImagen" class="form-control">
                 <br>
