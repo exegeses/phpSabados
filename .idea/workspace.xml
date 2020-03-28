@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcb498bf-bde6-4d1c-8d16-194917fb011b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sistema/eliminarMarca.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sistema/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sistema/formEliminarMarca.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/formEliminarMarca.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema/adminProductos.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/adminProductos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sistema/funciones/marcas.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/funciones/marcas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema/funciones/productos.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/funciones/productos.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +95,7 @@
       <workItem from="1581773201725" duration="12056000" />
       <workItem from="1582377992772" duration="8397000" />
       <workItem from="1584799085005" duration="10181000" />
-      <workItem from="1585400830690" duration="8872000" />
+      <workItem from="1585400830690" duration="13283000" />
     </task>
     <servers />
   </component>

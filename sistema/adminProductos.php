@@ -2,7 +2,7 @@
 
     require 'funciones/conexion.php';
     require 'funciones/productos.php';
-    $productos = litarProductos();
+    $productos = listarProductos();
 	include 'includes/header.html';  
 	include 'includes/nav.php';  
 ?>

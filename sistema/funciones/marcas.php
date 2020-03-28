@@ -70,6 +70,18 @@
         return $marca;
     }
 
+    function eliminarMarca()
+    {
+        $idMarca = $_POST['idMarca'];
+        $link = conectar();
+        $sql = "DELETE FROM marcas
+                    WHERE idMarca = ".$idMarca;
+
+        $resultado = mysqli_query( $link, $sql )
+                        or die(mysqli_error($link));
+        return $resultado;
+    }
+
     /**
      * listarMarcas()
      * verMarcaPorID()

@@ -3,7 +3,7 @@
     ###################################
     ########## CRUD DE PRODUCTOS #########
 
-    function litarProductos()
+    function listarProductos()
     {
         $link = conectar();
         $sql = "SELECT idProducto, prdNombre, prdPrecio,
