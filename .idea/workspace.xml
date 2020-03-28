@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcb498bf-bde6-4d1c-8d16-194917fb011b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sistema/formEliminarMarca.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sistema/formEliminarProducto.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sistema/adminMarcas.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/adminMarcas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sistema/funciones/marcas.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/funciones/marcas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema/adminProductos.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/adminProductos.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,17 +70,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:catalogoPHP@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:catalogoPHP@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@77269110" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -104,7 +91,8 @@
       <workItem from="1581167518046" duration="9622000" />
       <workItem from="1581773201725" duration="12056000" />
       <workItem from="1582377992772" duration="8397000" />
-      <workItem from="1584799085005" duration="9831000" />
+      <workItem from="1584799085005" duration="10181000" />
+      <workItem from="1585400830690" duration="3390000" />
     </task>
     <servers />
   </component>
