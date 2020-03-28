@@ -46,7 +46,7 @@
         $sql = "SELECT mkNombre 
                     FROM productos p, marcas m
                     WHERE p.idMarca = m.idMarca
-                      AND idMarca = ".$idMarca;
+                      AND m.idMarca = ".$idMarca;
 
         $resultado = mysqli_query($link, $sql)
                     or die(mysqli_error($link));
@@ -55,6 +55,19 @@
         $cantidad = mysqli_num_rows($resultado);
         return $cantidad;
 
+    }
+
+    function verMarcaPorID()
+    {
+        $idMarca = $_GET['idMarca'];
+        $link = conectar();
+        $sql = "SELECT idMarca, mkNombre
+                    FROM marcas
+                    WHERE idMarca = ".$idMarca;
+        $resultado = mysqli_query( $link, $sql )
+                        or die(mysqli_error($link));
+        $marca = mysqli_fetch_assoc($resultado);
+        return $marca;
     }
 
     /**
