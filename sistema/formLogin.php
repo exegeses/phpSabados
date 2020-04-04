@@ -1,4 +1,4 @@
-<?php  
+<?php
 	include 'includes/header.html';  
 	include 'includes/nav.php';  
 ?>
@@ -17,6 +17,17 @@
                 <button class="btn btn-dark btn-block">Ingresar</button>
             </form>
         </div>
+
+<?php
+    if ( isset( $_GET['error'] ) ){
+?>
+        <div class="alert alert-danger">
+            Usuario y/o Clave incorrectos
+        </div>
+<?php
+    }
+?>
+
 
     </main>
 

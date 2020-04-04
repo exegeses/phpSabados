@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcb498bf-bde6-4d1c-8d16-194917fb011b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sistema/formLogin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sistema/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema/formLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/formLogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema/funciones/usuarios.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/funciones/usuarios.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +28,30 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="catalogoPHP@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="catalogoPHP@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="catalogoPHP@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="catalogoPHP: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="catalogoPHP@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="catalogoPHP: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="usuarios: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -92,7 +117,7 @@
       <workItem from="1582377992772" duration="8397000" />
       <workItem from="1584799085005" duration="10181000" />
       <workItem from="1585400830690" duration="13430000" />
-      <workItem from="1586005013606" duration="1902000" />
+      <workItem from="1586005013606" duration="6231000" />
     </task>
     <servers />
   </component>
@@ -100,10 +125,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="575" y="324" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584809157318">
+    <state x="575" y="324" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586008917296">
       <screen x="0" y="23" width="2560" height="1332" />
     </state>
-    <state x="575" y="324" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.23.1920.1057/0.23.2560.1332@0.23.2560.1332" timestamp="1584809157318" />
+    <state x="575" y="324" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.23.1920.1057/0.23.2560.1332@0.23.2560.1332" timestamp="1586008917296" />
     <state x="446" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583592622133">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -124,10 +149,11 @@
       <screen x="0" y="23" width="2560" height="1332" />
     </state>
     <state width="1281" height="321" key="GridCell.Tab.0.right/2560.23.1920.1057/0.23.2560.1332@0.23.2560.1332" timestamp="1584809174756" />
-    <state x="515" y="296" key="NewPhpFileDialog" timestamp="1582382852503">
-      <screen x="0" y="0" width="1360" height="728" />
+    <state x="969" y="565" key="NewPhpFileDialog" timestamp="1586007315086">
+      <screen x="0" y="23" width="2560" height="1332" />
     </state>
     <state x="515" y="296" key="NewPhpFileDialog/0.0.1360.728@0.0.1360.728" timestamp="1582382852503" />
+    <state x="969" y="565" key="NewPhpFileDialog/2560.23.1920.1057/0.23.2560.1332@0.23.2560.1332" timestamp="1586007315086" />
     <state x="183" y="10" key="SettingsEditor" timestamp="1582378148508">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
