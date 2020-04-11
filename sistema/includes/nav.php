@@ -8,7 +8,7 @@
         <a class="py-2" href="adminCategorias.php">Categorías</a>
         <a class="py-2" href="adminProductos.php">Productos</a>
         <a class="py-2" href="adminUsuarios.php">Usuarios</a>
-
+        categorias
 <?php
         if ( !isset( $_SESSION['login'] ) ){  
 ?>
@@ -22,10 +22,11 @@
 ?>        
         
                         <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <a href="#"><i class="fas fa-sign-out-alt"></i> Nombre </a>
+                            <a href="#"><i class="fas fa-sign-out-alt"></i> <?= $_SESSION['nombreApellido']; ?> </a>
                         </button>
                         <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item bg-dark" href="logout.php">Salir</a>
+                            <a class="dropdown-item bg-dark" href="formContacto.php">Contacto</a>
                             <a class="dropdown-item bg-dark" href="#">Acción 2</a>
                         </div>
 <?php

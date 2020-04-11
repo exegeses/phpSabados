@@ -8,13 +8,12 @@
         $usuEmail = $_POST['usuEmail'];
         $usuPass = $_POST['usuPass'];
         $link = conectar();
-        $sql = "SELECT 1
+        $sql = "SELECT usuNombre, usuApellido
                     FROM usuarios
                     WHERE usuEmail = '".$usuEmail."'
                      AND  usuPass  = '".$usuPass."'";
         $resultado = mysqli_query($link, $sql)
                                 or die( mysqli_error($link) );
-        //$cantidad = mysqli_fetch_assoc($resultado);
         $cantidad = mysqli_num_rows($resultado);
 
         if( $cantidad == 0 ){ // no hay coincidencia
@@ -26,7 +25,8 @@
         else{
             ##rutina de autenticación
             $_SESSION['login'] = 1;
-
+            $datos = mysqli_fetch_assoc($resultado);
+            $_SESSION['nombreApellido'] = $datos['usuNombre'].' '.$datos['usuApellido'];
             //redirección a admin
             header('location: admin.php');
         }
@@ -34,7 +34,9 @@
 
     function logout()
     {
-
+        session_unset();
+        session_destroy();
+        header('refresh:3; url=index.php');
     }
 
     function autenticar()
