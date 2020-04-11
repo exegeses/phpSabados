@@ -1,10 +1,13 @@
 <?php
 
-require 'funciones/conexion.php';
-require 'funciones/marcas.php';
-$marcas = listarMarcas();
-include 'includes/header.html';
-include 'includes/nav.php';
+    require 'config/config.php';
+    require 'funciones/usuarios.php';
+        autenticar();
+    require 'funciones/conexion.php';
+    require 'funciones/marcas.php';
+    $marcas = listarMarcas();
+    include 'includes/header.html';
+    include 'includes/nav.php';
 ?>
 
     <main class="container">

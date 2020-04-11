@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcb498bf-bde6-4d1c-8d16-194917fb011b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sistema/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sesiones/borrarSesion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sesiones/crearSesion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sesiones/leerSesion.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema/adminCategorias.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/adminCategorias.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema/adminMarcas.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/adminMarcas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema/adminProductos.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/adminProductos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/config/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sistema/formLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/formLogin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sistema/funciones/usuarios.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/funciones/usuarios.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema/plantilla.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/plantilla.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +126,7 @@
       <workItem from="1582377992772" duration="8397000" />
       <workItem from="1584799085005" duration="10181000" />
       <workItem from="1585400830690" duration="13430000" />
-      <workItem from="1586005013606" duration="6231000" />
+      <workItem from="1586005013606" duration="13191000" />
     </task>
     <servers />
   </component>
@@ -129,10 +138,11 @@
       <screen x="0" y="23" width="2560" height="1332" />
     </state>
     <state x="575" y="324" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.23.1920.1057/0.23.2560.1332@0.23.2560.1332" timestamp="1586008917296" />
-    <state x="446" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583592622133">
-      <screen x="0" y="0" width="1360" height="728" />
+    <state x="840" y="336" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586016865156">
+      <screen x="0" y="23" width="2560" height="1332" />
     </state>
     <state x="446" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1583592622133" />
+    <state x="840" y="336" key="#com.intellij.fileTypes.FileTypeChooser/2560.23.1920.1057/0.23.2560.1332@0.23.2560.1332" timestamp="1586016865156" />
     <state width="1281" height="321" key="GridCell.Tab.0.bottom" timestamp="1584809174756">
       <screen x="0" y="23" width="2560" height="1332" />
     </state>
@@ -149,15 +159,20 @@
       <screen x="0" y="23" width="2560" height="1332" />
     </state>
     <state width="1281" height="321" key="GridCell.Tab.0.right/2560.23.1920.1057/0.23.2560.1332@0.23.2560.1332" timestamp="1584809174756" />
-    <state x="969" y="565" key="NewPhpFileDialog" timestamp="1586007315086">
+    <state x="969" y="565" key="NewPhpFileDialog" timestamp="1586016223752">
       <screen x="0" y="23" width="2560" height="1332" />
     </state>
     <state x="515" y="296" key="NewPhpFileDialog/0.0.1360.728@0.0.1360.728" timestamp="1582382852503" />
-    <state x="969" y="565" key="NewPhpFileDialog/2560.23.1920.1057/0.23.2560.1332@0.23.2560.1332" timestamp="1586007315086" />
-    <state x="183" y="10" key="SettingsEditor" timestamp="1582378148508">
-      <screen x="0" y="0" width="1360" height="728" />
+    <state x="969" y="565" key="NewPhpFileDialog/2560.23.1920.1057/0.23.2560.1332@0.23.2560.1332" timestamp="1586016223752" />
+    <state x="344" y="41" key="SettingsEditor" timestamp="1586017156775">
+      <screen x="0" y="23" width="2560" height="1332" />
     </state>
     <state x="183" y="10" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1582378148508" />
+    <state x="344" y="41" key="SettingsEditor/2560.23.1920.1057/0.23.2560.1332@0.23.2560.1332" timestamp="1586017156775" />
+    <state width="541" height="445" key="SwitcherDM" timestamp="1586017652420">
+      <screen x="0" y="23" width="2560" height="1332" />
+    </state>
+    <state width="541" height="445" key="SwitcherDM/2560.23.1920.1057/0.23.2560.1332@0.23.2560.1332" timestamp="1586017652420" />
     <state x="387" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1582378092315">
       <screen x="0" y="0" width="1360" height="728" />
     </state>

@@ -3,6 +3,8 @@
     ####################################
     ##### archivo de configuración
 
+    session_start(); //habilitamos sesion de manerta global
+
 
     function verContenido($datos)
     {

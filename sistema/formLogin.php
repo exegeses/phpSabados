@@ -1,4 +1,6 @@
 <?php
+
+    require 'config/config.php';
 	include 'includes/header.html';  
 	include 'includes/nav.php';  
 ?>
@@ -21,9 +23,15 @@
 <?php
     if ( isset( $_GET['error'] ) ){
 ?>
-        <div class="alert alert-danger">
-            Usuario y/o Clave incorrectos
-        </div>
+        <script>
+
+            Swal.fire(
+                'Error en el login',
+                'Nombre de usuario y/o contraseña incorrectos',
+                'error'
+            )
+
+        </script>
 <?php
     }
 ?>
