@@ -18,7 +18,8 @@
     $cuerpo .= '</div>';
 
     $headers = 'From: satan@hell.com' . "\r\n";
-    $headers .= 'MIME-Version: 1.0';
+    $headers .='Reply-To: webmaster@example.com' . "\r\n";
+    $headers .= 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-type: text/html; charset=utf-8';
 
     ####### enviamos el email
@@ -41,3 +42,10 @@
     </main>
 
 <?php  include 'includes/footer.php';  ?>
+
+
+bbdd: id13241109_catalogo
+usr : id13241109_catalogophp
+
+
+catalogophp:tMGvcT?u04stY_YT
