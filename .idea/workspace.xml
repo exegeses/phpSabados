@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcb498bf-bde6-4d1c-8d16-194917fb011b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesiones/borrarSesion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesiones/crearSesion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sesiones/leerSesion.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sistema/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sistema/adminCategorias.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/adminCategorias.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sistema/adminMarcas.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/adminMarcas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sistema/adminProductos.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/adminProductos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sistema/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/config/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sistema/formLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/formLogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema/funciones/marcas.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/funciones/marcas.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sistema/funciones/usuarios.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/funciones/usuarios.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sistema/plantilla.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/plantilla.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema/includes/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/includes/nav.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +120,7 @@
       <workItem from="1584799085005" duration="10181000" />
       <workItem from="1585400830690" duration="13430000" />
       <workItem from="1586005013606" duration="13191000" />
+      <workItem from="1586610448626" duration="3658000" />
     </task>
     <servers />
   </component>

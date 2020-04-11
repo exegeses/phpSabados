@@ -19,11 +19,19 @@
     }
 
 
+    function chequearDatosDesdeForm()
+    {
+        if( !isset($_POST['mkNombre']) ){
+            header('location: pantallaError.php');
+        }
+    }
+
     function agregarMarca()
     {
-        $mkNombre = $_POST['mkNombre'];
-        $link = conectar();
 
+        $link = conectar();
+        chequearDatosDesdeForm();
+        $mkNombre = $_POST['mkNombre'];
         $sql = "INSERT INTO marcas
                     (mkNombre)
                     VALUE 

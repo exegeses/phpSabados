@@ -22,17 +22,24 @@
 
 <?php
     if ( isset( $_GET['error'] ) ){
+        $titulo = 'Ingreso no  permitido';
+        $mensaje = 'Debe loguearse para ingresar a sistema';
+        if( $_GET['error'] == 1 ){
+            $titulo = 'Error en el login';
+            $mensaje = 'Nombre de usuario y/o contraseña incorrectos';
+        }
 ?>
         <script>
 
             Swal.fire(
-                'Error en el login',
-                'Nombre de usuario y/o contraseña incorrectos',
+                '<?= $titulo; ?>',
+                '<?= $mensaje; ?>',
                 'error'
             )
 
         </script>
 <?php
+
     }
 ?>
 
